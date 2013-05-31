@@ -100,7 +100,7 @@ css/
            |- about.scss
 ```
 
-Files can be broken down as much as the project needs. For example, if the project contained more shared global rules, a `global` directory could be created and `global.scss`, `variables.scss` and 'modal.scss' could be moved into there for even cleaning organization.
+Files can be broken down as much as the project needs. For example, if the project contained more shared global rules, a `global` directory could be created and `global.scss`, `variables.scss` and `modal.scss` could be moved into there for even cleaner organization.
 
 #### main.scss
 
@@ -108,7 +108,7 @@ The `main.scss` *(global.scss, style.scss, etc.)* should not have any selector r
 
 1. Vendor Globals
 2. Project Globals
-3. Reusable Patterns (modals, tabs, etc)
+3. Reusable Patterns *(modals, tabs, etc)*
 4. Section Specific
 5. [shame.css](http://csswizardry.com/2013/04/shame-css/)
 
@@ -166,7 +166,7 @@ Ordering properties/rules in Sass/SCSS can help keep things clear and easier to 
 1. @extend
 2. Regular Rules
 3. @includes
-4. Nested Selectors
+4. Selector States & Nested Selectors
 
 ```scss
 // Bad
@@ -191,7 +191,7 @@ Ordering properties/rules in Sass/SCSS can help keep things clear and easier to 
 }
 ```
 
-Separating rules and nested selectors like so makes the code more clear and easier read. 
+Adding a linebreak separating rules and nested selectors helps make the code more clear and easier read. 
 
 ## <a name='resources'>Resources</a>
 
